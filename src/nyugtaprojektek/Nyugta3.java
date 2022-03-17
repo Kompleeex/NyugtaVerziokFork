@@ -5,6 +5,8 @@ a huf ne tartalmazzon eurót
 a kedvezmény helyett legyen szervízdíj, amit hozzá kell adni a végössdzeghez
 */
 public class Nyugta3 {
+    
+    
 
     public static void main(String[] args) {
         String csillagok = "********************";
@@ -21,6 +23,7 @@ public class Nyugta3 {
         System.out.printf("%10s: %5d %s\n", "Tétel 1", tetel1, HUF);
         System.out.printf("%10s: %5d %s\n", "Tétel 2", tetel2, HUF);
         System.out.printf("%10s: %5d %s\n", "Tétel 3", tetel3, HUF);
+        
 
         String duplaVonal = "====================";
         System.out.println(duplaVonal);
@@ -62,12 +65,12 @@ public class Nyugta3 {
         String rovidVonalValaszto = "      ";
         System.out.print(rovidVonalValaszto);
         System.out.println(rovidVonal);
-        System.out.print(" Dátum");
+        System.out.printf("%6s","Dátum");
         System.out.print(rovidVonalValaszto);
-        System.out.println("   Név");
+        System.out.printf("%6s\n", "Név");
         
         System.out.println(csillagok);    
-        System.out.println("        CÉG");
+        System.out.printf("%11s\n", "CÉG");
         System.out.println(csillagok);
     }
 
